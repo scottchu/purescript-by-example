@@ -5,7 +5,8 @@
   "author": "Scott Chu <scottchu@icloud.com>",
   "license": "MIT",
   "scripts": {
-    "build": "pulp --watch build --build-path ./source/build",
+    "pulp.repl": "pulp repl --src-path ./source --dependency-path ./.psc-package",
+    "pulp.build": "pulp --watch build",
     "dev.server": "webpack-dev-server --config ./.webpack/base.config.js"
   },
   "devDependencies": {
