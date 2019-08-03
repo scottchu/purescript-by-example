@@ -1,0 +1,7 @@
+{
+  "name": "purescript-by-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Scott Chu <scottchu@icloud.com>",
+  "license": "MIT"
+}
